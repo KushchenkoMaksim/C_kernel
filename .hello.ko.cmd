@@ -1,1 +1,0 @@
-cmd_/home/user/Desktop/C_kernel/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/user/Desktop/C_kernel/hello.ko /home/user/Desktop/C_kernel/hello.o /home/user/Desktop/C_kernel/hello.mod.o;  true
