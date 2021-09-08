@@ -1,4 +1,5 @@
-all: static dynamic
+all: libs test
+libs: static dynamic
 funcS.o:
 	gcc -c func.c -o funcS.o
 funcD.o:
